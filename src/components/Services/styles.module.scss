@@ -156,5 +156,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: start;
+
+    @include mobile{
+      overflow: auto;
+    }
   }
 }

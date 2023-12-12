@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./styles.module.scss";
 import Links from "./links";
-import ToggleButton from "../../../../meu-portfolio/src/components/sidebar/toggleButton/ToggleButton";
+import ToggleButton from "./ToggleButton";
 
 const variants = {
   open: {
