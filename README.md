@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Este é o repositório para o meu website de portfólio, uma plataforma para exibir meus projetos, habilidades e experiências.
+Este é o repositório para o meu portfólio, uma plataforma para exibir meus projetos, habilidades e experiências.
 
 ## Visão Geral
 
