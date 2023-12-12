@@ -1,0 +1,43 @@
+@import "../../app.scss";
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+
+    @include mobile{
+        height: 50px;
+        width: 50px;
+        gap: 5px;
+    }
+    @include tablet{
+        height: 100px;
+        width: 100px;
+        gap: 5px;
+    }
+
+    img{
+        width: 90px;
+        
+        @include mobile{
+            width: 30px;
+        }
+
+        @include tablet{
+            width: 80px;
+        }
+    }
+    a{
+        font-weight: bold;
+        @include mobile{
+            font-size: 10px;
+        }
+
+        @include tablet{
+            font-size: 20px;
+        }
+    }
+  }
